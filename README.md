@@ -23,3 +23,7 @@ I built this project to practice and understand **HTML**, **CSS**, and especiall
 - [ ] Add a **delete** feature for task list items
 - [ ] Count how many Pomodoro sessions have been completed
 - [ ] Include detailed, trusted information about the **Pomodoro Technique**
+
+## 📬 Feedback
+
+If you have ideas, feedback, or want to collaborate, feel free to reach out!
