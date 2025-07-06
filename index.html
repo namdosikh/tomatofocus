@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tomatofocus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.icons8.com/fluency/48/tomato.png" type="image/png">
+</head>
+<body>
+    <div class="header">
+        <h1>tomatoes for focus — a pomodoro clone</h1>
+    </div>
+    <div class="pomodoroContainer">
+        <h1>Tomatoes Timer</h1>
+        <img id="tomatoImage" src="https://img.icons8.com/plasticine/100/tomato.png" alt="this should be a tomato"/>
+        <div class="timerContainer">
+            <div class="choiceContainer">
+                <button id="focus">Pomodoro</button>
+                <button id="break">Break</button>
+            </div>
+            <h3 id="timer">25:00</h3>
+            <div class="buttonFeatures">
+                <button id="startButton">Start</button>
+                <button id="pauseButton">Pause</button>
+                <button id="resetButton">Reset</button>
+            </div>
+        </div>
+    </div>
+    <div class="taskContainer">
+        <h2>Tasks</h2>
+        <input type="text" id="taskInput" placeholder="Enter a task">
+        <button id="addTaskButton">Add Task</button>
+        <ul id="taskList"></ul>
+    </div>
+    <div class="footer">
+        <h4>Why a tomato?</h4>
+        <p>Tomatoes are a symbol of the Pomodoro Technique, which uses a timer to break work into intervals, traditionally 25 minutes in length, separated by short breaks.</p>
+        <p>Developed by Francesco Cirillo in the late 1980s, the technique aims to improve focus and productivity.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

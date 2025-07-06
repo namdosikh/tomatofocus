@@ -1,0 +1,97 @@
+* {
+    /* border: 1px solid black; */
+    margin: 5px;
+    padding: 5px;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellowgreen;
+    width: 90%;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: darkgreen;
+    border-radius: 10px;
+}
+
+.pomodoroContainer {
+    justify-items: center;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.timerContainer {
+    justify-items: center;
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+#focus:hover, #focus:focus, #break:hover, #break:focus {
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+}
+
+#timer {
+    font-size: 4rem;
+    text-decoration-style: solid;
+    color: white;
+}
+
+.taskContainer {
+    align-items: center;
+    justify-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.taskContainer h2 {
+    text-align: center;
+    justify-self: normal;
+    border-bottom: 3px double grey;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.buttonFeatures button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonFeatures button:hover {
+    background-color: darkgrey;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border: 1px solid black;
+}
+
+.footer {
+    background-color: lightpink;
+    border-radius: 10px;
+}
